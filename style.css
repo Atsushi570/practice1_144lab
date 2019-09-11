@@ -1,0 +1,717 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# GLOBAL
+# HERO SECTION
+# ABOUT SECTION
+# SERVICE & PRODUCT SECTION
+# NEWS SECTION
+# HOOTER
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# GLOBAL
+--------------------------------------------------------------*/
+html
+{
+	font-size : 16px;
+}
+
+body
+{
+	margin : 0 auto;
+	padding : 0;
+	font-family : 'Noto Sans Japanese', 'Avenir', 'Helvetica Neue', 'Helvetica',
+	'Arial', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic',
+	'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic';
+	font-size : 1.2rem;
+}
+
+a:link ,
+a:visited ,
+a:hover ,
+a:active
+{
+	color : #0000ff;
+	text-decoration : none;
+}
+
+.container
+{
+	max-width : 980px;
+}
+
+.btn-purple
+{
+	position : relative;
+	width : 100%;
+	height : 36px;
+}
+
+.btn-purple a
+{
+	display : table;
+	width : 156px;
+	height : 36px;
+	margin-left : -78px;
+	background-color : #d4004e;
+	color : white;
+	font-size : 13px;
+	font-weight : 700;
+	text-align : center;
+	vertical-align : middle;
+}
+
+.btn-purple a p
+{
+	display : table-cell;
+	position : relative;
+	vertical-align : middle;
+}
+
+.btn-purple a p i
+{
+	position : absolute;
+	top : 50%;
+	right : 12px;
+	margin-top : -7px;
+	font-size : 13px;
+}
+
+.btn-white
+{
+	position : relative;
+	width : 100%;
+	height : 36px;
+}
+
+.btn-white a
+{
+	display : table;
+	width : 156px;
+	height : 36px;
+	margin-left : -78px;
+	background-color : white;
+	color : #333333;
+	font-size : 13px;
+	font-weight : 700;
+	text-align : center;
+	vertical-align : middle;
+}
+
+.btn-white a p
+{
+	display : table-cell;
+	position : relative;
+	vertical-align : middle;
+}
+
+.btn-white a p i
+{
+	position : absolute;
+	top : 50%;
+	right : 12px;
+	margin-top : -7px;
+	font-size : 13px;
+}
+/*--------------------------------------------------------------
+# HERO SECTION
+--------------------------------------------------------------*/
+.hero-section
+{
+	background-color : #f2f3f7;
+}
+
+section.hero-section > .container
+{
+	position : relative;
+}
+
+section.hero-section .container
+{
+	position : relative;
+}
+
+.hero-wrapper
+{
+	position : relative;
+	width : 100%;
+	padding-top : 84%;
+}
+
+img#hero-image
+{
+	position : absolute;
+	top : -18%;
+	width : 100%;
+	height : auto;
+
+	object-fit : cover;
+	object-position : 0 100%;
+}
+
+.site-header
+{
+	width: 100%;
+	position : absolute;
+	top : 6.1%;
+	left : 0;
+	height : 77px;
+}
+
+.site-header > nav > a
+{
+	padding-left : 30px;
+}
+
+.site-header nav
+{
+	margin : auto;
+	box-shadow : 4px 4px 1px 1px rgba(0, 0, 0, 0.16);
+	font-size : 14px;
+	text-align : center;
+	background-color: white; 	
+}
+
+#navbarNav
+{
+	height : 35px;
+}
+
+#navbarNav ul > p
+{
+	margin : auto;
+	font-size : 9px;
+}
+
+#navbarNav ul li.nav-item *
+{
+	margin-top : 0;
+	margin-bottom : 0;
+}
+
+#navbarNav ul li.nav-item a
+{
+	padding-right : 45px;
+	padding-left : 45px;
+	color : black;
+	font-weight : lighter;
+	line-height : 1.5;
+	letter-spacing : 0.44px;
+}
+
+#navbarNav ul li.nav-item a p small
+{
+	margin : 0;
+	padding : 0;
+	color : #777777;
+	font-size : 10px;
+	line-height : 0;
+	letter-spacing : 0;
+}
+
+img#scroll-image
+{
+	position : absolute;
+	top : 100%;
+	left : 50%;
+	width : 4%;
+	height : auto;
+	transform : translate(-50%, -65%);
+}
+
+@media (max-width: 768px){
+	.site-header nav{
+		background: rgba(0, 0, 0, 0);
+		box-shadow: none;
+	}
+
+	.site-header nav a{
+		display: none;
+	}
+
+	.site-header nav button{
+		margin-left: auto;
+		background-color: white;
+	}
+}
+
+/*--------------------------------------------------------------
+# ABOUT SECTION
+--------------------------------------------------------------*/
+.about-wrapper
+{
+	position : relative;
+	width : 100%;
+	height : auto;
+	margin-top : 139px;
+}
+
+.about-wrapper .about-title
+{
+	display : table;
+	position : absolute;
+	z-index : 999;
+	top : -30px;
+	margin : 0;
+}
+
+.about-wrapper .about-title > *
+{
+	display : table-cell;
+	vertical-align : top;
+}
+
+.about-title > img
+{
+	padding-right : 20px;
+}
+
+.about-content
+{
+	margin : 25px 0 0 24px;
+	padding : 66px 55px 62.5px 66px;
+	background-color : #f2f3f7;
+	font-size : 17px;
+	font-weight : 500;
+	line-height : 2.4;
+	letter-spacing : 0.0002em;
+}
+
+.about-content p
+{
+	margin : 0;
+}
+
+
+/*--------------------------------------------------------------
+# SERVICE & PRODUCT SECTION
+--------------------------------------------------------------*/
+.product-wrapper
+{
+	padding-top : 100px;
+}
+
+.product-title
+{
+	position : relative;
+	padding-bottom : 60px;
+}
+
+.product-title h1
+{
+	position : absolute;
+	top : 0;
+	left : 29px;
+}
+
+.company-wrapper
+{
+	display : flex;
+	margin-bottom : 74px;
+
+	flex-flow : row wrap;
+}
+
+.company-wrapper > *
+{
+	width : 50%;
+	height : auto;
+}
+
+.company-image
+{
+	width : 50%;
+	height : auto;
+	border : 1px solid #707070;
+}
+
+.company-image::before
+{
+	display : block;
+	padding-top : 54%;
+	content : '';
+}
+
+.switch
+{
+	background : url('./assets/img/logo-switch_science@2x.png') no-repeat center center;
+	background-size : 54% auto;
+}
+
+.education
+{
+	background : url('./assets/img/logo-switch_education@2x.png') no-repeat center center;
+	background-size : 57% auto;
+}
+
+.unko
+{
+	background : url('./assets/img/logo-unko@2x.png') no-repeat center center;
+	background-size : 54% auto;
+}
+
+.iot
+{
+	background : url('./assets/img/logo-iot@2x.png') no-repeat center center;
+	background-size : 24% auto;
+}
+
+.company-lead > *
+{
+	font-weight : 700;
+}
+
+.lead-right > *
+{
+	margin-left : 20%;
+}
+
+.lead-right > p
+{
+	padding-right : 10%;
+}
+
+.lead-right > a
+{
+	margin-left : 40%;
+}
+
+.lead-left > *
+{
+	margin-left : 10%;
+}
+
+.lead-left > p
+{
+	padding-right : 20%;
+}
+
+.lead-left > a
+{
+	margin-left : 30%;
+}
+
+.company-lead > h5
+{
+	margin-bottom : 8%;
+	padding-top : 4%;
+	color : #d4004e;
+	letter-spacing : 0.055em;
+}
+
+.company-lead > p
+{
+	padding-bottom : 8%;
+	color : #333333;
+	font-size : 0.81rem;
+	line-height : 31px;
+	letter-spacing : 0.055em;
+}
+
+.company-info
+{
+	display : inline-block;
+	left : 50%;
+	margin : auto;
+}
+
+@media (max-width: 768px)
+{
+	.company-wrapper > *
+	{
+		width : 100%;
+	}
+
+	.company-image
+	{
+		order : 1;
+	}
+
+	.company-lead
+	{
+		text-align : center;
+
+		order : 2;
+	}
+
+	.company-lead *
+	{
+		margin : auto !important;
+	}
+
+	.company-lead h5
+	{
+		padding-top : 5%;
+	}
+
+	.company-lead p
+	{
+		padding : 5% 10% !important;
+	}
+
+	.company-info
+	{
+		top : -50%;
+	}
+}
+/*--------------------------------------------------------------
+# NEWS SECTION
+--------------------------------------------------------------*/
+.news-wrapper
+{
+	position : relative;
+	width : 100%;
+	height : auto;
+	margin-top : 139px;
+}
+
+.news-wrapper .news-title
+{
+	display : table;
+	position : absolute;
+	z-index : 999;
+	top : -30px;
+	margin : 0;
+}
+
+.news-wrapper .news-title > *
+{
+	display : table-cell;
+	vertical-align : top;
+}
+
+.news-title > img
+{
+	padding-right : 20px;
+}
+
+.news-content
+{
+	display : table;
+	height : 2.7%;
+	margin-bottom : 12px;
+	margin-left : 2.5%;
+	padding-top : 33px;
+	padding-bottom : 27px;
+	background-color : #f2f3f7;
+	font-size : 1vw;
+}
+
+.news-content > *
+{
+	display : table-cell;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	color : #333333 !important;
+	font-weight : 500;
+	vertical-align : middle;
+	line-height : 0;
+}
+
+.news-space
+{
+	width : 2%;
+}
+
+.news-content::before
+{
+	display : inline-block;
+	padding-top : 26px;
+	content : '';
+}
+
+.news-logo
+{
+	width : 23%;
+	text-align : center;
+	letter-spacing : 0;
+}
+
+.news-education
+{
+	border : #e5a31c 1px solid;
+	color : #e5a31c !important;
+}
+
+.news-144lab
+{
+	border : #d4004e 1px solid;
+	color : #d4004e !important;
+}
+
+.news-science
+{
+	border : #5fa153 1px solid;
+	color : #5fa153 !important;
+}
+
+.news-unko
+{
+	border : #50bbf4 1px solid;
+	color : #50bbf4 !important;
+}
+
+.news-content time
+{
+	width : 10%;
+	padding-right : 2.3%;
+	padding-left : 2.3%;
+}
+
+.news-separator
+{
+	font-size : 20px;
+	font-weight : 200;
+}
+
+.news-sentence
+{
+	width : 98%;
+	padding-left : 3.1%;
+}
+
+.news-content i
+{
+	padding-right : 2%;
+	font-weight : 900;
+}
+
+.news-all
+{
+	display : inline-block;
+	left : 50%;
+	margin : 50px auto 100px auto;
+}
+
+@media (min-width: 1280px)
+{
+	.news-content
+	{
+		font-size : 13px;
+	}
+}
+
+@media (max-width: 992px)
+{
+	.news-content
+	{
+		font-size : 9px;
+	}
+}
+@media (max-width: 768px)
+{
+	.news-content
+	{
+		display : block;
+		padding-top : 20px;
+		padding-bottom : 20px;
+		font-size : 19px;
+	}
+
+	.news-content > *
+	{
+		display : block;
+		line-height : 1.5;
+	}
+
+	.news-content::before
+	{
+		display : none;
+	}
+
+	.news-logo
+	{
+		display : inline-block;
+		width : auto;
+		margin-left : 3.1%;
+		padding-right : 15px;
+		padding-left : 15px;
+	}
+
+	.news-content time
+	{
+		padding-left : 3.1%;
+	}
+
+	.news-separator
+	{
+		display : none;
+	}
+
+	.news-sentence
+	{
+		display : block;
+	}
+
+	.news-content i
+	{
+		display : none;
+	}
+}
+
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
+footer
+{
+	background-color : #333333;
+	color : white;
+}
+
+footer > *
+{
+	font-size : 10px;
+	font-weight : 500;
+	text-align : center;
+}
+
+.footer-menu
+{
+	width : 520px;
+	margin : auto;
+	padding-top : 32px;
+	padding-bottom : 24px;
+}
+
+.footer-menu .list-inline .list-inline-item ,
+.footer-menu .list-inline .list-inline-item a
+{
+	color : white;
+}
+
+.footer-menu .list-inline .list-inline-item a
+{
+	padding-right : 25px;
+	padding-left : 25px;
+}
+
+
+
+.share-icons
+{
+	display : table;
+	table-layout : fixed;
+	width : 100px;
+	margin : auto;
+}
+
+.share-icons a
+{
+	display : table-cell;
+	color : white;
+}
+
+footer > .btn-white
+{
+	top : 20px;
+	left : 50%;
+}
+
+.copy-right
+{
+	margin-top : 50px;
+	margin-bottom : 0;
+	padding-bottom : 30px;
+	font-size : 9px;
+}

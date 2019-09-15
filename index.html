@@ -21,114 +21,83 @@
 
 <body>
 
-  <!-- HERO SECTION
+  <!-- HEADER
   ================================================== -->
-  <section class="hero-section">
-    <div class="container">
-      <div class="hero-wrapper">
-        <img id="hero-image" src="./assets/img/hero-image.png" alt="hero-image">
-        <!-- HEADER
-        ================================================== -->
-        <header class="site-header">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="./assets/img/header-logo.png" alt="header-logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><p>ABOUT<br><small>企業情報</small></p></a>
-                </li>
-                <p>|</p>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><p>NEWS</p><small>ニュース</small></a>
-                </li>
-                <p>|</p>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><p>SERVICE&PRODUCT</p><small>サービス＆製品情報</small></a>
-                </li>
-                <p>|</p>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><p>CONTACT</p><small>お問い合わせ</small></a>
-                </li>
-              </ul>
-            </div>
+  <header class="hero-section">
+    <div class="container hero-wrapper">
+      <img id="hero-image" src="./assets/img/hero-image.png" alt="hero-image">
+
+      <div class="site-header">
+        
+          <h1 class="navbar-brand">
+              <a  href="#"><img src="./assets/img/header-logo.png" alt="header-logo"></a>
+          </h1><!-- /.navbar-brand -->
+
+        <nav class="navbar navbar-expand-md navbar-light">
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-row-reverse" id="nav-wrapper">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>ABOUT<br><small>企業情報</small></p></a>
+              </li>
+              <p>|</p>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>NEWS<br><small>ニュース</small></p></a>
+              </li>
+              <p>|</p>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>SERVICE&PRODUCT<br><small>サービス＆製品情報</small></p></a>
+              </li>
+              <p>|</p>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><p>CONTACT<br><small>お問い合わせ</small></p></a>
+              </li>
+            </ul>
+          </div>
           </nav>
-        </header><!-- /.site-header -->
-      </div><!-- /.hero-wrapper -->
+      </div><!-- /.site-header -->
       <img id="scroll-image" src="./assets/img/scroll.png" alt="scroll-image">
 
 
     </div><!-- /.container -->
-  </section><!-- /.hero-section -->
+  </header><!-- /.hero-section -->
 
-  <!-- ABOUT SECTION
-  ================================================== -->
-  <section id="about-section">
-    <div class="container">
-      <div class="about-wrapper">
-        <div class="about-content">
-          <p>私たちの社会は、10年前、100年前、あるいは1000年前よりも確実に進化しています。科学こそが社会を進化させ、幸せをつくり出したのだと信じています。科学は与えられるものではなく、私たち自身が開拓し、進化させていくものです。144Labは、科学に触れ、さらなる開拓と進化に参加する人々を、ちょっとだけお手伝いします。</p>
-        </div><!-- /.about-content  -->
-        <div class="about-title">
-          <img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">
-          <h1>ABOUT</h1>
-        </div><!-- /.about-title -->      
-      </div><!-- /.about-wrapper -->
+  <main>
 
-      <div class="btn-purple company-info">
-        <a href="#">
-          <p>企業情報<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-        </a>
-      </div><!-- /.company-info -->
+    <!-- ABOUT SECTION
+    ================================================== -->
+    <section id="about-section">
+      <div class="container">
+        <h2 class="section-title"><img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">ABOUT</h2>
+        <p>私たちの社会は、10年前、100年前、あるいは1000年前よりも確実に進化しています。科学こそが社会を進化させ、幸せをつくり出したのだと信じています。科学は与えられるものではなく、私たち自身が開拓し、進化させていくものです。144Labは、科学に触れ、さらなる開拓と進化に参加する人々を、ちょっとだけお手伝いします。</p>
 
-    </div><!-- /.container -->
-  </section><!-- /#about-section -->
+        <div class="btn-purple">
+          <a href="#">
+            <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+          </a>
+        </div><!-- /.company-info -->
 
-  <!-- SERVICE & PRODUCT SECTION
-  ================================================== -->
-  <section id="product">
-    <div class="container product-wrapper">
+      </div><!-- /.container -->
+    </section><!-- /#about-section -->
 
-      <div class="product-title">
-        <img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">
-        <h1>SERVICE & PRODUCTS</h1>
-      </div><!-- /.product-title -->      
+    <!-- SERVICE & PRODUCT SECTION
+    ================================================== -->
+    <section id="product">
+      <div class="container product-wrapper">
 
-      <div class="company-wrapper">
-        <div class="company-image switch"></div><!-- /.company-image -->
-        <div class="company-lead lead-right">
-          <h5>株式会社スイッチサイエンス</h5>
-          <p>最先端のテクノロジーを、より多くの人々が道具として当たり前に使える世界を目指して活動しています…</p>
-          <div class="btn-purple company-info">
-            <a href="#">
-              <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-            </a>
-          </div><!-- /.company-info -->
-        </div><!-- /.company-lead -->
-      </div><!-- /.company-wrapper -->
-
-      <div class="company-wrapper">
-          <div class="company-lead lead-left">
-            <h5>株式会社スイッチエデュケーション</h5>
-            <p>すべての子供にSTEM教育を実践することを目的に活動しています。考える、作る、発表するプロセスを…</p>
-            <div class="btn-purple company-info">
-              <a href="#">
-                <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-              </a>
-            </div><!-- /.company-info -->
-          </div><!-- /.company-lead -->
-          <div class="company-image education"></div><!-- /.company-image -->
-        </div><!-- /.company-wrapper -->
+        <h2 class="section-title"><img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">SERVICE & PRODUCTS</h2>
 
         <div class="company-wrapper">
-          <div class="company-image unko"></div><!-- /.company-image -->
+          <div class="company-image switch"></div><!-- /.company-image -->
           <div class="company-lead lead-right">
-            <h5>うんこボタン</h5>
-            <p>赤ちゃんのうんちとおしっこの記録ができるボタンです。子育て世代をちょっとした工夫でお手伝いする…</p>
-            <div class="btn-purple company-info">
+            <h3>株式会社スイッチサイエンス</h3>
+            <p>最先端のテクノロジーを、より多くの人々が道具として当たり前に使える世界を目指して活動しています…</p>
+            <div class="btn-purple">
               <a href="#">
                 <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
               </a>
@@ -137,122 +106,143 @@
         </div><!-- /.company-wrapper -->
 
         <div class="company-wrapper">
-          <div class="company-lead lead-left">
-            <h5>IOT受託開発</h5>
-            <p>IoT製品の開発には、ソフトウェアからハードウェアまで様々な技術要素に関するノウハウが必要です。...</p>
-            <div class="btn-purple company-info">
-              <a href="#">
-                <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-              </a>
-            </div><!-- /.company-info -->
-          </div><!-- /.company-lead -->
-          <div class="company-image iot"></div><!-- /.company-image -->
-        </div><!-- /.company-wrapper -->
+            <div class="company-lead lead-left">
+              <h3>株式会社スイッチエデュケーション</h3>
+              <p>すべての子供にSTEM教育を実践することを目的に活動しています。考える、作る、発表するプロセスを…</p>
+              <div class="btn-purple">
+                <a href="#">
+                  <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+                </a>
+              </div><!-- /.company-info -->
+            </div><!-- /.company-lead -->
+            <div class="company-image education"></div><!-- /.company-image -->
+          </div><!-- /.company-wrapper -->
 
-    </div><!-- /.container product-wrapper -->
-  </section><!-- /#product -->
+          <div class="company-wrapper">
+            <div class="company-image unko"></div><!-- /.company-image -->
+            <div class="company-lead lead-right">
+              <h3>うんこボタン</h3>
+              <p>赤ちゃんのうんちとおしっこの記録ができるボタンです。子育て世代をちょっとした工夫でお手伝いする…</p>
+              <div class="btn-purple company-info">
+                <a href="#">
+                  <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+                </a>
+              </div><!-- /.company-info -->
+            </div><!-- /.company-lead -->
+          </div><!-- /.company-wrapper -->
 
-  <!-- NEWS SECTION
-  ================================================== -->
-  <section id="news-section">
-    
-    <div class="container news-wrapper">
-      <div class="news-title">
-        <img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">
-        <h1>NEWS</h1>
-      </div><!-- /.news-title -->
+          <div class="company-wrapper">
+            <div class="company-lead lead-left">
+              <h3>IOT受託開発</h3>
+              <p>IoT製品の開発には、ソフトウェアからハードウェアまで様々な技術要素に関するノウハウが必要です。...</p>
+              <div class="btn-purple company-info">
+                <a href="#">
+                  <p>詳しくはこちら<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+                </a>
+              </div><!-- /.company-info -->
+            </div><!-- /.company-lead -->
+            <div class="company-image iot"></div><!-- /.company-image -->
+          </div><!-- /.company-wrapper -->
 
-      <div class="news-content">
-        <div class="news-space"></div><!-- /.news-space -->
-        <div class="news-logo news-education">スイッチエデュケーション</div><!-- /.col-md-2 -->
-        <time >2019.04.24</time>
-        <div class="news-separator">|</div>
-        <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </div><!-- /.news-content  -->
+      </div><!-- /.container product-wrapper -->
+    </section><!-- /#product -->
 
-      <div class="news-content">
-        <div class="news-space"></div><!-- /.news-space -->
-        <div class="news-logo news-144lab">144lab</div><!-- /.col-md-2 -->
-        <time >2019.04.24</time>
-        <div class="news-separator">|</div>
-        <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
-        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </div><!-- /.news-content  -->
+    <!-- NEWS SECTION
+    ================================================== -->
+    <section id="news-section">
+      
+      <div class="container news-wrapper">
+        <h2 class="section-title"><img src="./assets/img/exclamation-mark.png" alt="exclamation-mark">NEWS</h2><!-- /.section-title -->
 
-        <div class="news-content">
+        <article class="news-content">
+          <div class="news-space"></div><!-- /.news-space -->
+          <div class="news-logo news-education">スイッチエデュケーション</div><!-- /.col-md-2 -->
+          <time >2019.04.24</time>
+          <div class="news-separator">|</div>
+          <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </article><!-- /.news-content  -->
+
+        <article class="news-content">
+          <div class="news-space"></div><!-- /.news-space -->
+          <div class="news-logo news-144lab">144lab</div><!-- /.col-md-2 -->
+          <time >2019.04.24</time>
+          <div class="news-separator">|</div>
+          <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </article><!-- /.news-content  -->
+
+        <article class="news-content">
           <div class="news-space"></div><!-- /.news-space -->
           <div class="news-logo news-science">スイッチサイエンス</div><!-- /.col-md-2 -->
           <time >2019.04.24</time>
           <div class="news-separator">|</div>
           <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </div><!-- /.news-content  -->
+        </article><!-- /.news-content  -->
 
-        <div class="news-content">
+        <article class="news-content">
           <div class="news-space"></div><!-- /.news-space -->
           <div class="news-logo news-unko">うんこボタン</div><!-- /.col-md-2 -->
           <time >2019.04.24</time>
           <div class="news-separator">|</div>
           <a class="news-sentence" href="#">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</a>
           <i class="fa fa-chevron-right" aria-hidden="true"></i>    
-        </div><!-- /.about-content  -->
+        </article><!-- /.about-content  -->
 
-    </div><!-- /.container.news-wrapper -->
-  </section><!-- /#about-section -->
+        <div class="btn-purple">
+          <a href="#">
+            <p>一覧<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+          </a>
+        </div><!-- /.company-info -->
 
-    <div class="btn-purple news-all">
-      <a href="#">
-        <p>一覧<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-      </a>
-    </div><!-- /.company-info -->
+      </div><!-- /.container.news-wrapper -->
+    </section><!-- /#news -->
+    
+    <!-- HOOTER
+    ================================================== -->
+    <footer>
 
-    </div><!-- /.container.news-wrapper -->
-  </section><!-- /#news -->
-  
-  <!-- HOOTER
-  ================================================== -->
-  <footer>
+      <nav class="footer-menu">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a class="" href="#">ABOUT</a>
+          </li>
+          <li class="list-inline-item">|</li><!-- /.list-inline-item -->
+          <li class="list-inline-item">
+            <a class="" href="#">NEWS</a>
+          </li>
+          <li class="list-inline-item">|</li><!-- /.list-inline-item -->
+          <li class="list-inline-item">
+            <a class="" href="#">SERVICE&PRODUCT</a>
+          </li>
+          <li class="list-inline-item">|</li><!-- /.list-inline-item -->
+          <li class="list-inline-item">
+            <a class="" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
 
-    <div class="footer-menu">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a class="" href="#">ABOUT</a>
-        </li>
-        <li class="list-inline-item">|</li><!-- /.list-inline-item -->
-        <li class="list-inline-item">
-          <a class="" href="#">NEWS</a>
-        </li>
-        <li class="list-inline-item">|</li><!-- /.list-inline-item -->
-        <li class="list-inline-item">
-          <a class="" href="#">SERVICE&PRODUCT</a>
-        </li>
-        <li class="list-inline-item">|</li><!-- /.list-inline-item -->
-        <li class="list-inline-item">
-          <a class="" href="#">CONTACT</a>
-        </li>
-      </ul>
-    </div>
+      <p>share</p>
 
-    <p>share</p>
+      <div class="share-icons">
+        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-line fa-2x"></i></a>
+      </div><!-- /.footer-share -->
 
-    <div class="share-icons">
-      <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-      <a href="#"><i class="fab fa-line fa-2x"></i></a>
-    </div><!-- /.footer-share -->
+      <div class="btn-white">
+        <a href="#">
+          <p>facebookページへ<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
+        </a>
+      </div><!-- /.company-info -->
 
-    <div class="btn-white">
-      <a href="#">
-        <p>facebookページへ<i class="fa fa-chevron-right" aria-hidden="true"></i></p>
-      </a>
-    </div><!-- /.company-info -->
+      <p class="copy-right">© Copyright 144Lab, Inc. All Rights Reserved.</p>
+    </footer>
 
-    <p class="copy-right">© Copyright 144Lab, Inc. All Rights Reserved.</p>
-  </footer>
-
-  <script type="text/javascript" src="./assets/js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+  </main>
 
 </body>
 </html>

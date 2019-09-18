@@ -453,7 +453,7 @@ img.scroll-image
 	.company-lead p ,
 	.company-lead a
 	{
-		margin : auto !important;
+		margin : auto ;
 	}
 
 	.company-lead h2
@@ -463,7 +463,7 @@ img.scroll-image
 
 	.company-lead p
 	{
-		padding : 5% 10% !important;
+		padding : 5% 10% ;
 	}
 
 	.company-lead .btn-purple
@@ -508,7 +508,7 @@ img.scroll-image
 	display : table-cell;
 	padding-top : 5px;
 	padding-bottom : 5px;
-	color : #333333 !important;
+	color : #333333 ;
 	font-weight : 500;
 	vertical-align : middle;
 	line-height : 0;
@@ -533,28 +533,28 @@ img.scroll-image
 	letter-spacing : 0;
 }
 
-.news-education
+.news-content > .news-education
 {
 	border : #e5a31c 1px solid;
-	color : #e5a31c !important;
+	color : #e5a31c ;
 }
 
-.news-144lab
+.news-content > .news-144lab
 {
 	border : #d4004e 1px solid;
-	color : #d4004e !important;
+	color : #d4004e ;
 }
 
-.news-science
+.news-content > .news-science
 {
 	border : #5fa153 1px solid;
-	color : #5fa153 !important;
+	color : #5fa153 ;
 }
 
-.news-unko
+.news-content > .news-unko
 {
 	border : #50bbf4 1px solid;
-	color : #50bbf4 !important;
+	color : #50bbf4 ;
 }
 
 .news-content time

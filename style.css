@@ -181,6 +181,7 @@ img.hero-image
 	width : 100%;
 	height : 7.9%;
 	background-color : white;
+	box-shadow : 4px 4px 1px 1px gray; /*古いブラウザ対応*/
 	box-shadow : 4px 4px 1px 1px rgba(0, 0, 0, 0.16);
 	font-size : 1.4vw;
 	text-align : center;
@@ -249,7 +250,7 @@ img.scroll-image
 {
 	.site-header
 	{
-		background : rgba(0, 0, 0, 0);
+		background : none;
 		box-shadow : none;
 	}
 
@@ -627,7 +628,7 @@ img.scroll-image
 		display : none;
 	}
 
-.news-content >	.news-logo
+	.news-content > .news-logo
 	{
 		display : inline-block;
 		width : auto;

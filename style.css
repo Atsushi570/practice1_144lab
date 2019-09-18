@@ -162,7 +162,7 @@ section.hero-section .container
 	padding-top : 70%;
 }
 
-img#hero-image
+img.hero-image
 {
 	position : absolute;
 	top : -18%;
@@ -199,7 +199,7 @@ img#hero-image
 	margin : auto auto auto 3%;
 }
 
-#nav-wrapper ul > p
+.nav-wrapper ul > p
 {
 	margin : auto;
 	padding-right : 5%;
@@ -207,13 +207,13 @@ img#hero-image
 	font-size : 0.92vw;
 }
 
-#nav-wrapper ul li.nav-item *
+.nav-wrapper ul li.nav-item *
 {
 	margin-top : 0;
 	margin-bottom : 0;
 }
 
-#nav-wrapper ul li.nav-item a
+.nav-wrapper ul li.nav-item a
 {
 	color : black;
 	font-weight : lighter;
@@ -221,7 +221,7 @@ img#hero-image
 	letter-spacing : 0.44px;
 }
 
-#nav-wrapper ul li.nav-item a p small
+.nav-wrapper ul li.nav-item a p small
 {
 	margin : 0;
 	padding : 0;
@@ -231,7 +231,7 @@ img#hero-image
 	letter-spacing : 0;
 }
 
-img#scroll-image
+img.scroll-image
 {
 	position : absolute;
 	top : 100%;
@@ -272,7 +272,7 @@ img#scroll-image
 /*--------------------------------------------------------------
 # ABOUT SECTION
 --------------------------------------------------------------*/
-#about-section div.container
+.about-section div.container
 {
 	position : relative;
 	width : 100%;
@@ -280,7 +280,7 @@ img#scroll-image
 	margin-top : 14%;
 }
 
-#about-section div > p
+.about-section div > p
 {
 	margin : -50px 0 0 25px;
 	padding : 6.7% 5.5% 6.3% 6.7%;
@@ -291,14 +291,14 @@ img#scroll-image
 	letter-spacing : 0.0002em;
 }
 
-#about-section .container .btn-purple
+.about-section .container .btn-purple
 {
 	transform : translate(50%, -50%);
 }
 
 @media(max-width: 768px)
 {
-	#about-section div p
+	.about-section div p
 	{
 		font-size : 11px;
 	}
@@ -306,7 +306,7 @@ img#scroll-image
 
 @media(max-width: 450px)
 {
-	#about-section
+	.about-section
 	{
 		margin-bottom : 50px;
 	}

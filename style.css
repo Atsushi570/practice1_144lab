@@ -315,6 +315,11 @@ img.scroll-image
 	padding-top : 100px;
 }
 
+.product-wrapper > .section-title
+{
+	padding-bottom : 60px;
+}
+
 .company-wrapper
 {
 	display : flex;
